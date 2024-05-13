@@ -1,6 +1,6 @@
 # Comandos para inicializar o repositório
 
-```
+```text
 git init -b main
 
 npm init -y
@@ -22,7 +22,14 @@ commitizen init cz-conventional-changelog --save-dev --save-exact --force
 npm install --save-dev standard-version
 ```
 
-## Gera CHANGELOG.ND
+## Facilitador das mensagens de commit
+
+```text
+git cz
 ```
+
+## Como gerar o CHANGELOG.MD
+
+```text
 npx standard-version
 ```
